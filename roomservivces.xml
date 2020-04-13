@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="rez" fetch="https://github.com/rez23/" />
+<!--remote name="ion" fetch="https://github.com/i-o-n/"/-->
+
+<remove-project name="device_phh_treble" path="device/phh/treble" remote="express" />
+<remove-project name="vendor_gapps" path="vendor/gapps/" />
+
+<project path="device/phh/treble" name="device_phh_treble" remote="rez" revision="android-10.0" />
+<project path="device/ion/sepolicy" name="device_custom_sepolicy" revision="ten" remote="ion" />
+</manifest>
